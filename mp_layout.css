@@ -42,6 +42,8 @@
 html {
 	height: 100%;
 	font-size: 14px;
+	font-family: 'Julee', cursive;
+	
 }
 img, object, embed, video {
 	max-width: 100%;
@@ -69,7 +71,7 @@ article {
 }
 
 nav ul li {
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-family: 'Julee', cursive;
 	font-size: 0.8em;
 }
 
@@ -94,7 +96,7 @@ nav ul li a:hover, nav ul li a:active {
 }
 body h1 {
 	margin: 1%;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-family: 'Julee', cursive;;
 	font-size: 1.5em;
 }
 
@@ -102,6 +104,9 @@ body article h1 {
 	font-size: 1.15em;
 }
 
+p {
+	font-family: 'Julee', cursive;
+}
 header img {
 	float: none;
 	width: 96%;
@@ -110,13 +115,13 @@ header img {
 body p, body address {
 	margin: 3.5% 1%;
 	font-size: 1em;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-family: 'Julee', cursive;
 	font-style: normal;
 	height: 100%;
 }
 dl {
 	margin-left: 2%;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-family: 'Julee', cursive;
 }
 dt {
 	display: block;
@@ -136,7 +141,7 @@ footer {
 	font-size: 0.6em;
 	margin-top: 4%;
 	border-top: 3px outset #cf7b79;
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-family: 'Julee', cursive;
 	clear: both;
 	padding-bottom: 20px;
 }
@@ -158,13 +163,9 @@ article div h1 {
 	font-weight: bold;
 }
 
-article p, article address {font-family: "Times New Roman", Times, serif;}
-/* =============================================
-	Tablet layout styles used by devices
-	481px to 768px and cascaded to larger 
-	devices.
-   =============================================
-*/
+article p, article address {
+	font-family: 'Julee', cursive;
+}
 
 
 @media only screen and (min-width: 481px) {
@@ -297,7 +298,7 @@ html, body {
 }
 
 html {
-	background-color: #953e3c;
+	background-color: #4C047B;
 	margin: 0px auto;
 }
 body {
