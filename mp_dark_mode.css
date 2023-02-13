@@ -140,7 +140,7 @@ footer {
 	text-align: center;
 	font-size: 0.6em;
 	margin-top: 4%;
-	border-top: 3px outset #cf7b79;
+	border-top: 3px outset #04043C;
 	font-family: 'Julee', cursive;
 	clear: both;
 	padding-bottom: 20px;
@@ -298,7 +298,7 @@ html, body {
 }
 
 html {
-	background-color: #4C047B;
+	background-color: #744799;
 	margin: 0px auto;
 }
 body {
@@ -309,7 +309,7 @@ body {
 	margin: 0px auto auto auto;
 	clear: none;
 	float: none;
-	background-color: white;
+	background-color: #9E85B4;
 	-moz-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
 	-webkit-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
 	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
