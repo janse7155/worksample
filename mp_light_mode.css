@@ -85,7 +85,7 @@ nav ul li a:visited {
 	color: #222;
 }
 nav ul li a:hover {
-	background-color: #b34a48;
+	background-color: #9c5fd6;
 	color: white;
 }
 nav ul li a:focus {
@@ -266,12 +266,16 @@ article div:first-of-type {
 	margin-top: 0%;
 }
 
+div {
+	background-color: #744799;
+	color: #E4E3EA;
+}
 article div h1 {
 	text-align: right;
 	font-weight: normal;
 	font-size: 1em;
 	border-bottom: 1px solid rgb(151, 151, 151);
-	background-color: #ffdcdb;
+	background-color: #531172;
 }
 
 article div p {
@@ -279,11 +283,31 @@ article div p {
 	text-align: left;
 }
 
+
 footer {
 	font-size: 0.9em;
 }
+li:first-of-type {
+	list-style-image: url(panini_bullet.png);
+	
+}
+li:nth-of-type(2) {
+	list-style-image: url(panini_bullet.png);
+}
+li:nth-of-type(3) {
+	list-style-image: url(panini_bullet.png);
+}
+li:nth-of-type(4) {
+	list-style-image: url(panini_bullet.png);
+}
+li:nth-of-type(5) {
+	list-style-image: url(panini_bullet.png);
+}
+li:last-of-type {
+	list-style-image: url(panini_bullet.png);
 }
 
+}
 
 
 /* =============================================
