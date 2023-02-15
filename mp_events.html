@@ -14,13 +14,34 @@
    <title>Mobile Panini Events Calendar</title>
    <link href="mp_base.css" rel="stylesheet"  />
    <link href="mp_light_mode.css" rel="stylesheet"  />
+   <link href="style.css" rel="stylesheet"  />
+   <script src="app.js"></script>i
    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Julee&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="light">
    <header>
+      <nav>
+      <ul>
+         <li class="nav-item has-dropdown">
+            <a href="#">Theme</a>
+            <ul class="dropdown">
+              <li class="dropdown-item">
+                <a id="light" href="#">Light</a>
+              </li>
+              <li class="dropdown-item">
+                <a id="dark" href="#">Dark</a>
+              </li>
+              <li class="dropdown-item">
+                <a id="solar" href="#">Solarize</a>
+              </li>
+            </ul>
+          </li>
+         </ul>
+      </nav>
+      <br />
       <a href="mp_index.html"><img src="mp_new_logo.png" alt="Mobile Panini" /></a>
       <nav>
          <ul>

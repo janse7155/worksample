@@ -85,8 +85,8 @@ nav ul li a:visited {
 	color: #222;
 }
 nav ul li a:hover {
-	background-color: #9c5fd6;
-	color: white;
+	background-color: var(--purple0);
+	color: var(--purple3);
 }
 nav ul li a:focus {
 	outline: thin dotted;
@@ -128,7 +128,7 @@ dt {
 	margin: 0;
 	text-indent: 0;
 	font-weight: bold;
-	border-bottom: 1px solid rgba(168, 168, 168,1.00);
+	border-bottom: 1px solid var(--grey);
 }
 dd {
 	display: block;
@@ -140,7 +140,7 @@ footer {
 	text-align: center;
 	font-size: 0.6em;
 	margin-top: 4%;
-	border-top: 3px outset #04043C;
+	border-top: 3px outset var(--blue);
 	font-family: 'Julee', cursive;
 	clear: both;
 	padding-bottom: 20px;
@@ -151,7 +151,7 @@ article aside h1 {
 }
 
 article div {
-	border-bottom: 1px solid rgb(151, 151, 151);
+	border-bottom: 1px solid var(--grey);
 }
 
 article div:first-of-type {
@@ -182,18 +182,21 @@ article p, article address {
     align-items: center;
     justify-content: space-around;
     height: 3rem;
-    margin-top: 2rem;
+    
     padding: 0.5rem;
    
-    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.175em 0.5em;
-    transform: translateX(-40%);
+    box-shadow: var(--blue) 0px 0.175em 0.5em;
+    transform: translateX(35%);
 
     transition: opacity .15s ease-out;
 }
+
+
 .has-dropdown:focus-within .dropdown   {
     opacity: 1;
     pointer-events: auto;
 }
+
 
 .dropdown-item a {
     width: 100%;
@@ -260,7 +263,7 @@ nav ul li {
 	width: 15%;
 	text-align: center;
 	margin-right: 2%;
-	border: thin solid rgba(127,96,17,1.00);
+	border: thin solid var(--yellow);
 	border-collapse: collapse;
 }
 nav ul li a {
@@ -288,24 +291,24 @@ article aside {
 	float: right;
 	margin: 0 0 20px 20px;
 	padding: 1%;
-	border: 1px solid rgb(251, 151, 151);
+	border: 1px solid var(--purple1);
 	width: 35%;
 	font-size: 0.9em;
-	background-color: #ffdcdb;
+	background-color: var(--purple0);
 }
 
 article aside h1 {
 	display: block;
 	font-size: 1em;
 	text-align: center;
-	border-bottom: 1px solid rgb(111, 111, 111);
+	border-bottom: 1px solid var(--grey);
 }
 
 article div {
 	float: left;
 	width: 30.3%;
 	margin: 0% 1% 2% 1%;
-	border: 1px solid rgb(151, 151, 151);
+	border: 1px solid var(--grey);
 }
 
 article div:first-of-type {
@@ -313,15 +316,15 @@ article div:first-of-type {
 }
 
 div {
-	background-color: #744799;
-	color: #E4E3EA;
+	background-color: var(--purple1);
+	color: var(--purple6);
 }
 article div h1 {
 	text-align: right;
 	font-weight: normal;
 	font-size: 1em;
-	border-bottom: 1px solid rgb(151, 151, 151);
-	background-color: #531172;
+	border-bottom: 1px solid var(--grey);
+	background-color: var(--purple2);
 }
 
 article div p {
@@ -356,34 +359,16 @@ li:last-of-type {
 }
 
 
-/* =============================================
-	Desktop layout styles used by  devices
-	769px and larger.
-   =============================================
-*/
-
-@media only screen and (min-width: 769px) {
 html, body {
 	font-size: 20px;
 }
 
 html {
-	background-color: #744799;
+	
 	margin: 0px auto;
 }
-body {
-	width: 88.2%;
-	max-width: 900px;
-	padding-left: 0.9%;
-	padding-right: 0.9%;
-	margin: 0px auto auto auto;
-	clear: none;
-	float: none;
-	background-color: #9E85B4;
-	-moz-box-shadow: rgba(52, 35, 85, 0.9) 20px 0px 25px,  rgba(46, 31, 61, 0.9) -20px 0px 25px;
-	-webkit-box-shadow:rgba(52, 35, 85, 0.9) 20px 0px 25px,  rgba(46, 31, 61, 0.9) -20px 0px 25px;
-	box-shadow: rgba(52, 35, 85, 0.9) 20px 0px 25px,  rgba(46, 31, 61, 0.9) -20px 0px 25px;
-}
+
+
 
 article div h1 {
 	font-size: 1.1em;
@@ -393,4 +378,3 @@ article div p {
 	font-size: 0.95em;
 }
 
-}
