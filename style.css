@@ -127,6 +127,7 @@ img {
     --text: var(--purple6);
     --border-color: var(--blue);
     --bg-solar: var(--yellow);
+    --div-title: var(--purple4);
 }
   
 
@@ -135,7 +136,7 @@ img {
     --bg-nav: linear-gradient(to right, var(--purple5), var(--purple6));
     --bg-dropdown: var(--purple6);
     --text: var(--purple0);
-    --border-color: var(--purple);
+    --border-color: var(--yellow);
     --bg-solar: var(--blue);
 }
 

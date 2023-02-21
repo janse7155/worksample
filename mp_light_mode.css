@@ -324,7 +324,7 @@ article div h1 {
 	font-weight: normal;
 	font-size: 1em;
 	border-bottom: 1px solid var(--bg);
-	background-color: var(--text);
+	background-color: var(--div-title);
 }
 
 article div p {
