@@ -85,8 +85,8 @@ nav ul li a:visited {
 	color: #222;
 }
 nav ul li a:hover {
-	background-color: var(--purple0);
-	color: var(--purple3);
+	background-color: var(--bg);
+	color: var(--text);
 }
 nav ul li a:focus {
 	outline: thin dotted;
@@ -128,7 +128,7 @@ dt {
 	margin: 0;
 	text-indent: 0;
 	font-weight: bold;
-	border-bottom: 1px solid var(--grey);
+	border-bottom: 1px solid var(--border-color);
 }
 dd {
 	display: block;
@@ -140,7 +140,7 @@ footer {
 	text-align: center;
 	font-size: 0.6em;
 	margin-top: 4%;
-	border-top: 3px outset var(--blue);
+	border-top: 3px outset var(--border-color);
 	font-family: 'Julee', cursive;
 	clear: both;
 	padding-bottom: 20px;
@@ -151,7 +151,7 @@ article aside h1 {
 }
 
 article div {
-	border-bottom: 1px solid var(--grey);
+	border-bottom: 1px solid var(--bg);
 }
 
 article div:first-of-type {
@@ -263,7 +263,7 @@ nav ul li {
 	width: 15%;
 	text-align: center;
 	margin-right: 2%;
-	border: thin solid var(--yellow);
+	border: thin solid var(--bg-solar);
 	border-collapse: collapse;
 }
 nav ul li a {
@@ -291,24 +291,24 @@ article aside {
 	float: right;
 	margin: 0 0 20px 20px;
 	padding: 1%;
-	border: 1px solid var(--purple1);
+	border: 1px solid var(--border-color);
 	width: 35%;
 	font-size: 0.9em;
-	background-color: var(--purple0);
+	background-color: var(--bg);
 }
 
 article aside h1 {
 	display: block;
 	font-size: 1em;
 	text-align: center;
-	border-bottom: 1px solid var(--grey);
+	border-bottom: 1px solid var(--bg);
 }
 
 article div {
 	float: left;
 	width: 30.3%;
 	margin: 0% 1% 2% 1%;
-	border: 1px solid var(--grey);
+	border: 1px solid var(--bg);
 }
 
 article div:first-of-type {
@@ -316,15 +316,15 @@ article div:first-of-type {
 }
 
 div {
-	background-color: var(--purple1);
-	color: var(--purple6);
+	background-color: var(--bg);
+	color: var(--text);
 }
 article div h1 {
 	text-align: right;
 	font-weight: normal;
 	font-size: 1em;
-	border-bottom: 1px solid var(--grey);
-	background-color: var(--purple2);
+	border-bottom: 1px solid var(--bg);
+	background-color: var(--text);
 }
 
 article div p {
