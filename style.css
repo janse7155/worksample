@@ -61,7 +61,7 @@ img {
     z-index: 2;
     background: var(--bg-dropdown);
     border-top: 2px solid var(--border-color);
-    color: var(--);
+
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
     
@@ -139,6 +139,7 @@ img {
     --text: var(--purple0);
     --border-color: var(--yellow);
     --bg-solar: var(--blue);
+    --div-title: var(--purple2);
 }
 
 .solar {
