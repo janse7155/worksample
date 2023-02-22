@@ -377,7 +377,3 @@ article div h1 {
 article div p {
 	font-size: 0.95em;
 }
-
-.filtered {
-    filter: hue-rotate(-10deg);
-  }
